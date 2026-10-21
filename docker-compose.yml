@@ -1,0 +1,26 @@
+# docker compose up --build  →  http://localhost:3000
+# Research Markdown is mounted read-only; personal data lives in the salimmon-db volume.
+services:
+  server:
+    build: ./server
+    environment:
+      RESEARCH_DIR: /data/research
+      DATABASE_URL: sqlite:////data/db/salimmon.db
+      RESEARCH_WATCH: "true"
+    volumes:
+      - ./research:/data/research:ro
+      - salimmon-db:/data/db
+    ports:
+      - "8000:8000"
+  client:
+    build:
+      context: ./client
+      args:
+        API_INTERNAL_URL: http://server:8000
+        NEXT_PUBLIC_KAKAO_MAP_APP_KEY: ${NEXT_PUBLIC_KAKAO_MAP_APP_KEY:-}
+    depends_on:
+      - server
+    ports:
+      - "3000:3000"
+volumes:
+  salimmon-db:
