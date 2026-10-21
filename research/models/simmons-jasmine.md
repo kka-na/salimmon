@@ -10,7 +10,7 @@ model_code: null
 status: partially_verified
 image:
   image_url: null
-  image_source_url: https://www.simmons.co.kr/
+  image_source_url: https://simmons.co.kr/product-detail?productNo=127678787
   alt: 시몬스 뷰티레스트 자스민 공식 제품 사진 확인 후 추가
   rights_status: unknown
 specs:
@@ -31,9 +31,9 @@ prices:
   observed_at: '2025-11-24'
   source_url: https://gall.dcinside.com/mgallery/board/view/?id=chimdae&no=6365
 pros:
-- 스프링 타입으로 폼 매트리스와 다른 반발감과 지지감을 실물 비교할 수 있음
+- 2025년 11월 KK 구매자가 약 380만 원 결제 및 여러 브랜드 체험 후 선택했다고 진술
 cons:
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- 개별 구매자의 가격·사은품은 전국 공식 정가가 아니며 구매 후 장기 내구성 근거는 아님
 warranty_summary: null
 warranty_source_url: null
 store_ids: []
@@ -41,6 +41,7 @@ review_ids:
 - review-20251124-jasmine
 source_urls:
 - https://www.simmons.co.kr/
+- https://simmons.co.kr/product-detail?productNo=127678787
 updated_at: '2026-10-21'
 ---
 # 시몬스 · 뷰티레스트 자스민
@@ -53,7 +54,7 @@ updated_at: '2026-10-21'
 ## 공식 사양과 규격
 - 확인된 치수(mm): 미확인(모델별 옵션 확인)
 - 두께(mm): 미확인
-- 공식 제품 정보: [https://www.simmons.co.kr/](https://www.simmons.co.kr/)
+- 공식 제품 정보: [https://simmons.co.kr/product-detail?productNo=127678787](https://simmons.co.kr/product-detail?productNo=127678787)
 - 제품 사진: 원본 페이지 연결만 기록. 이용 허가를 확인하기 전까지 파일 복제/직접 링크를 하지 않아 `image_url: null`로 둠.
 
 ## 판매 채널·가격 근거
@@ -62,10 +63,10 @@ updated_at: '2026-10-21'
 - 공식 시작가를 Q 가격으로 해석하거나, 개인 협상 가격을 정가로 제시하지 마십시오.
 
 ## 확인된 장점
-- 스프링 타입으로 폼 매트리스와 다른 반발감과 지지감을 실물 비교할 수 있음
+- 2025년 11월 KK 구매자가 약 380만 원 결제 및 여러 브랜드 체험 후 선택했다고 진술
 
 ## 확인된 단점·주의사항
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- 개별 구매자의 가격·사은품은 전국 공식 정가가 아니며 구매 후 장기 내구성 근거는 아님
 
 ## 실제 사용 후기 요약
 - [2025-11-24 개인 후기](https://gall.dcinside.com/mgallery/board/view/?id=chimdae&no=6365): 자스민 KK 380만 원 구매·배송했다고 진술. 금성/씰리/한샘/베스트슬립 비교 후 선택. (구매 단계: actual_use_claim; 협찬 여부 확인되지 않음)
@@ -80,3 +81,10 @@ updated_at: '2026-10-21'
 ## 검증 상태·미확인 항목
 - 상태: `partially_verified`. **공식 모델/카탈로그 존재와 실물 재고는 별도입니다.**
 - 확인이 필요한 항목: 제품 이미지 이용 권한, 최신 옵션별 가격, 실제 전시 모델, 모델별 보증서 세부 약관.
+
+
+## 공식 상품 이미지 출처 확인 (v3)
+- 제품 전용 공식 상세 페이지: [https://simmons.co.kr/product-detail?productNo=127678787](https://simmons.co.kr/product-detail?productNo=127678787)
+- 매칭 근거: 공식 뷰티레스트 자스민 단독 상세. 모델명·사이즈·경도 기준으로 대조.
+- 원본 제조사 이미지의 복제·재호스팅 허가는 확인되지 않았습니다. `rights_status: unknown`, `image_url: null`을 유지합니다.
+- 앱의 공식 링크 이미지 미리보기 기능은 개발 측의 `make previews`로 갱신할 수 있으며, OG 대표 이미지가 실제 해당 제품인지 재확인해야 합니다.

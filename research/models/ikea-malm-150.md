@@ -10,7 +10,7 @@ model_code: null
 status: partially_verified
 image:
   image_url: null
-  image_source_url: https://www.ikea.com/kr/ko/cat/beds-mattresses-bm001/
+  image_source_url: https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/
   alt: 이케아 말름 침대 프레임 공식 제품 사진 확인 후 추가
   rights_status: unknown
 specs:
@@ -28,9 +28,9 @@ prices:
   observed_at: '2026-10-21'
   source_url: https://www.ikea.com/kr/ko/cat/beds-mattresses-bm001/
 pros:
-- 매트리스와 분리해 디자인과 가격을 비교 가능
+- 150×200cm 규격을 명시한 높은 프레임 제품으로 설치 공간 비교가 쉬움
 cons:
-- 매트리스 치수·하부 지지 구조·추가 옵션을 확인해야 함
+- 갈빗살·매트리스 별도이며 부속 선택 전 전체 가격은 프레임 표기가와 다름
 warranty_summary: 프레임/세트 전용 보증서 별도 확인 필요. 같은 브랜드 매트리스 스프링 보증을 프레임에 적용하지 않음.
 warranty_source_url: null
 store_ids:
@@ -38,6 +38,7 @@ store_ids:
 review_ids: []
 source_urls:
 - https://www.ikea.com/kr/ko/cat/beds-mattresses-bm001/
+- https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/
 updated_at: '2026-10-21'
 ---
 # 이케아 · 말름 침대 프레임
@@ -50,7 +51,7 @@ updated_at: '2026-10-21'
 ## 공식 사양과 규격
 - 확인된 치수(mm): [1500, 2000]
 - 두께(mm): 미확인
-- 공식 제품 정보: [https://www.ikea.com/kr/ko/cat/beds-mattresses-bm001/](https://www.ikea.com/kr/ko/cat/beds-mattresses-bm001/)
+- 공식 제품 정보: [https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/](https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/)
 - 제품 사진: 원본 페이지 연결만 기록. 이용 허가를 확인하기 전까지 파일 복제/직접 링크를 하지 않아 `image_url: null`로 둠.
 
 ## 판매 채널·가격 근거
@@ -58,10 +59,10 @@ updated_at: '2026-10-21'
 - 공식 시작가를 Q 가격으로 해석하거나, 개인 협상 가격을 정가로 제시하지 마십시오.
 
 ## 확인된 장점
-- 매트리스와 분리해 디자인과 가격을 비교 가능
+- 150×200cm 규격을 명시한 높은 프레임 제품으로 설치 공간 비교가 쉬움
 
 ## 확인된 단점·주의사항
-- 매트리스 치수·하부 지지 구조·추가 옵션을 확인해야 함
+- 갈빗살·매트리스 별도이며 부속 선택 전 전체 가격은 프레임 표기가와 다름
 
 ## 실제 사용 후기 요약
 - 조건에 맞는 모델명 직접 연결 독립 후기가 확보되지 않았습니다. 판매자 상품평은 기본 집계에서 제외합니다.
@@ -76,3 +77,10 @@ updated_at: '2026-10-21'
 ## 검증 상태·미확인 항목
 - 상태: `partially_verified`. **공식 모델/카탈로그 존재와 실물 재고는 별도입니다.**
 - 확인이 필요한 항목: 제품 이미지 이용 권한, 최신 옵션별 가격, 실제 전시 모델, 모델별 보증서 세부 약관.
+
+
+## 공식 상품 이미지 출처 확인 (v3)
+- 제품 전용 공식 상세 페이지: [https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/](https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/)
+- 매칭 근거: 이케아 말름 150x200cm 화이트 높은 프레임 옵션. 모델명·사이즈·경도 기준으로 대조.
+- 원본 제조사 이미지의 복제·재호스팅 허가는 확인되지 않았습니다. `rights_status: unknown`, `image_url: null`을 유지합니다.
+- 앱의 공식 링크 이미지 미리보기 기능은 개발 측의 `make previews`로 갱신할 수 있으며, OG 대표 이미지가 실제 해당 제품인지 재확인해야 합니다.

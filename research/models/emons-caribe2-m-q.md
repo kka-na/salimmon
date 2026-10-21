@@ -10,7 +10,7 @@ model_code: null
 status: partially_verified
 image:
   image_url: null
-  image_source_url: https://www.emons.co.kr/product/product_main.php?division=PRI2&searchOrder=date
+  image_source_url: https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573
   alt: 에몬스 카리브2 M (Q) 공식 제품 사진 확인 후 추가
   rights_status: unknown
 specs:
@@ -26,15 +26,17 @@ prices:
   observed_at: '2026-10-21'
   source_url: https://www.emons.co.kr/product/product_main.php?division=PRI2&searchOrder=date
 pros:
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- 카리브2 H와 같은 Q 사이즈 및 독립스프링 기반에서 쿠션감 비교 가능
 cons:
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- H와 M은 내장 폼 조합이 달라 외형이 같아도 실제 착와감 확인 필요
 warranty_summary: null
 warranty_source_url: null
 store_ids: []
 review_ids: []
 source_urls:
 - https://www.emons.co.kr/product/product_main.php?division=PRI2&searchOrder=date
+- https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573
+- https://www.emons.co.kr/product/product_view.php?prodId=11573
 updated_at: '2026-10-21'
 ---
 # 에몬스 · 카리브2 M (Q)
@@ -47,7 +49,7 @@ updated_at: '2026-10-21'
 ## 공식 사양과 규격
 - 확인된 치수(mm): 미확인(모델별 옵션 확인)
 - 두께(mm): 미확인
-- 공식 제품 정보: [https://www.emons.co.kr/product/product_main.php?division=PRI2&searchOrder=date](https://www.emons.co.kr/product/product_main.php?division=PRI2&searchOrder=date)
+- 공식 제품 정보: [https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573](https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573)
 - 제품 사진: 원본 페이지 연결만 기록. 이용 허가를 확인하기 전까지 파일 복제/직접 링크를 하지 않아 `image_url: null`로 둠.
 
 ## 판매 채널·가격 근거
@@ -55,10 +57,10 @@ updated_at: '2026-10-21'
 - 공식 시작가를 Q 가격으로 해석하거나, 개인 협상 가격을 정가로 제시하지 마십시오.
 
 ## 확인된 장점
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- 카리브2 H와 같은 Q 사이즈 및 독립스프링 기반에서 쿠션감 비교 가능
 
 ## 확인된 단점·주의사항
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- H와 M은 내장 폼 조합이 달라 외형이 같아도 실제 착와감 확인 필요
 
 ## 실제 사용 후기 요약
 - 조건에 맞는 모델명 직접 연결 독립 후기가 확보되지 않았습니다. 판매자 상품평은 기본 집계에서 제외합니다.
@@ -73,3 +75,17 @@ updated_at: '2026-10-21'
 ## 검증 상태·미확인 항목
 - 상태: `partially_verified`. **공식 모델/카탈로그 존재와 실물 재고는 별도입니다.**
 - 확인이 필요한 항목: 제품 이미지 이용 권한, 최신 옵션별 가격, 실제 전시 모델, 모델별 보증서 세부 약관.
+
+
+## 공식 상품 이미지 출처 확인 (v3)
+- 제품 전용 공식 상세 페이지: [https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573](https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573)
+- 매칭 근거: 에몬스 카리브2 M Q 상세. 모델명·사이즈·경도 기준으로 대조.
+- 원본 제조사 이미지의 복제·재호스팅 허가는 확인되지 않았습니다. `rights_status: unknown`, `image_url: null`을 유지합니다.
+- 앱의 공식 링크 이미지 미리보기 기능은 개발 측의 `make previews`로 갱신할 수 있으며, OG 대표 이미지가 실제 해당 제품인지 재확인해야 합니다.
+
+
+## 공식 원본 사진 주소 후보 (v4)
+- 원본 페이지: https://www.emons.co.kr/product/product_view.php?prodId=11573
+- 사진 원본 URL(권리 미확정, 수집·재호스팅 금지): https://images.emons.co.kr/brand/upload_files/product/sub/20260526102847_6a14f74f81dea_7180.jpg
+- 이미지 확인 상태: `official_gallery_image_octet_stream`.
+- 이미지 출처 기록이며, 앱의 `image.image_url` 사용 허가를 의미하지 않음.

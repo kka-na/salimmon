@@ -21,9 +21,9 @@ specs:
   other: {}
 prices: []
 pros:
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- 제조사 공식 렌탈 페이지에서 Z10B 제품 이미지와 구독 옵션이 별도로 제공됨
 cons:
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- 서로 다른 Z10B와 Z10BLACK/하위 경도를 같은 모델로 연결하면 안 됨
 warranty_summary: null
 warranty_source_url: null
 store_ids:
@@ -32,6 +32,7 @@ store_ids:
 review_ids: []
 source_urls:
 - https://bestsleep.us/
+- https://www.bestsleep.cafe/start
 updated_at: '2026-10-21'
 ---
 # 베스트슬립 · 베스트슬립 Z10B
@@ -52,10 +53,10 @@ updated_at: '2026-10-21'
 - 공식 시작가를 Q 가격으로 해석하거나, 개인 협상 가격을 정가로 제시하지 마십시오.
 
 ## 확인된 장점
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- 제조사 공식 렌탈 페이지에서 Z10B 제품 이미지와 구독 옵션이 별도로 제공됨
 
 ## 확인된 단점·주의사항
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- 서로 다른 Z10B와 Z10BLACK/하위 경도를 같은 모델로 연결하면 안 됨
 
 ## 실제 사용 후기 요약
 - 조건에 맞는 모델명 직접 연결 독립 후기가 확보되지 않았습니다. 판매자 상품평은 기본 집계에서 제외합니다.
@@ -71,3 +72,10 @@ updated_at: '2026-10-21'
 ## 검증 상태·미확인 항목
 - 상태: `researching`. **공식 모델/카탈로그 존재와 실물 재고는 별도입니다.**
 - 확인이 필요한 항목: 제품 이미지 이용 권한, 최신 옵션별 가격, 실제 전시 모델, 모델별 보증서 세부 약관.
+
+
+## 공식 원본 사진 주소 후보 (v4)
+- 원본 페이지: https://www.bestsleep.cafe/start
+- 사진 원본 URL(권리 미확정, 수집·재호스팅 금지): https://www.bestsleep.cafe/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Fz10b.e5a0ecdd.jpg&w=3840
+- 이미지 확인 상태: `official_marketing_visual_verified_not_dedicated_page`.
+- 이미지 출처 기록이며, 앱의 `image.image_url` 사용 허가를 의미하지 않음.

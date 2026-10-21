@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "image_usage_rule": "no copyrighted image files copied without license or written permission",
+  "updated_at": "2026-10-21",
+  "models": [
+    {
+      "model_id": "ace-arco-frame",
+      "brand_id": "ace",
+      "model_name": "아르코 ARCO 프레임",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.acebed.com/product/bed/frame/view.do?detailsKey=224",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 아르코 프레임 상세"
+    },
+    {
+      "model_id": "ace-hybrid-red",
+      "brand_id": "ace",
+      "model_name": "하이브리드 테크 레드",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.acebed.com/product/bed/mattress/view.do?detailsKey=9",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "ace-royal90h",
+      "brand_id": "ace",
+      "model_name": "로얄에이스 90H",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.acebed.com/product/bed/mattress/view.do?detailsKey=29",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "ace-royal90s",
+      "brand_id": "ace",
+      "model_name": "로얄에이스 90S",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.acebed.com/product/bed/mattress/view.do?detailsKey=28",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "bestsleep-g5-soft",
+      "brand_id": "bestsleep",
+      "model_name": "베스트슬립 G5 소프트",
+      "status": "needs_detail",
+      "official_detail_url": "https://bestsleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "bestsleep-z10b",
+      "brand_id": "bestsleep",
+      "model_name": "베스트슬립 Z10B",
+      "status": "needs_detail",
+      "official_detail_url": "https://bestsleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "bestsleep-z11",
+      "brand_id": "bestsleep",
+      "model_name": "베스트슬립 Z11",
+      "status": "needs_detail",
+      "official_detail_url": "https://bestsleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "brandless-morpheus22",
+      "brand_id": "brandless",
+      "model_name": "브랜드리스 모피어스22",
+      "status": "needs_detail",
+      "official_detail_url": "https://bestsleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "emons-caribe2-h-q",
+      "brand_id": "emons",
+      "model_name": "카리브2 H (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11578",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "에몬스 카리브2 H Q 상세"
+    },
+    {
+      "model_id": "emons-caribe2-m-q",
+      "brand_id": "emons",
+      "model_name": "카리브2 M (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "에몬스 카리브2 M Q 상세"
+    },
+    {
+      "model_id": "emons-live-m-q",
+      "brand_id": "emons",
+      "model_name": "리브M (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11583",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Official detailed item id 11583 shows 리브 or 리브M; verify brand naming before assuming same spec"
+    },
+    {
+      "model_id": "epeda-aerolithe",
+      "brand_id": "epeda",
+      "model_name": "데디카스 에어로리떼",
+      "status": "needs_detail",
+      "official_detail_url": "https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "epeda-gatsby",
+      "brand_id": "epeda",
+      "model_name": "아르데코 개츠비",
+      "status": "needs_detail",
+      "official_detail_url": "https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "epeda-sayo",
+      "brand_id": "epeda",
+      "model_name": "아르데코 사요",
+      "status": "needs_detail",
+      "official_detail_url": "https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "hanssem-close-frame",
+      "brand_id": "hanssem",
+      "model_name": "클로즈 침대",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/1041147",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "클로즈 Q/K 프레임 단독 상품"
+    },
+    {
+      "model_id": "hanssem-fourseason-5",
+      "brand_id": "hanssem",
+      "model_name": "포시즌 5",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/1115352",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "포시즌5 Q/K/KK 단독 상품"
+    },
+    {
+      "model_id": "hanssem-fourseason-6",
+      "brand_id": "hanssem",
+      "model_name": "포시즌 6",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/1115350",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "포시즌6 Q/K/KK 단독 상품; 2025년 8월 리뉴얼"
+    },
+    {
+      "model_id": "hanssem-fourseason-7",
+      "brand_id": "hanssem",
+      "model_name": "포시즌 7",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/1115348",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "포시즌7 Q/K/KK 단독 상품"
+    },
+    {
+      "model_id": "hanssem-mono-frame",
+      "brand_id": "hanssem",
+      "model_name": "호텔침대 모노",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/1115939",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "호텔 모노 Q/K 매트리스 제외 프레임 상품"
+    },
+    {
+      "model_id": "hanssem-poet-frame",
+      "brand_id": "hanssem",
+      "model_name": "호텔침대 포에트",
+      "status": "new_official_detail",
+      "official_detail_url": "https://store.hanssem.com/goods/932380",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "호텔 포에트 Q/K 매트리스 제외 프레임 상품"
+    },
+    {
+      "model_id": "ikea-lyngor-divan-150",
+      "brand_id": "ikea",
+      "model_name": "뤼니에르 디반+복스트란다 세트",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.ikea.com/kr/ko/p/lyngoer-divan-bed-vagstranda-firm-light-blue-dark-grey-s49615238/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "ikea-malm-150",
+      "brand_id": "ikea",
+      "model_name": "말름 침대 프레임",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "이케아 말름 150x200cm 화이트 높은 프레임 옵션"
+    },
+    {
+      "model_id": "ikea-vagstranda-150",
+      "brand_id": "ikea",
+      "model_name": "복스트란다 포켓스프링",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.ikea.com/kr/ko/p/vagstranda-pocket-sprung-mattress-super-firm-light-blue-90569993/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "ikea-valevag-150",
+      "brand_id": "ikea",
+      "model_name": "발레보그 포켓스프링",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.ikea.com/kr/en/p/valevag-pocket-sprung-mattress-firm-light-blue-30450671/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "이케아 발레보그 150x200cm 단단함(영문 한국 공식몰)"
+    },
+    {
+      "model_id": "ikea-vesteroey-150",
+      "brand_id": "ikea",
+      "model_name": "베스테뢰위 포켓스프링",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.ikea.com/kr/ko/p/vesteroey-pocket-sprung-mattress-extra-firm-light-blue-50470060/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "iloom-bazel-q",
+      "brand_id": "iloom",
+      "model_name": "바젤 심플리화이트 침대 프레임",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.iloom.com/product/detail.do?productCd=HBA501501",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "일룸 바젤 심플리화이트 Q 프레임"
+    },
+    {
+      "model_id": "iloom-daily-light-firm-q",
+      "brand_id": "iloom",
+      "model_name": "데일리 라이트 펌 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.iloom.com/product/detail.do?productCd=IMS15AB01A",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "일룸 데일리 라이트 펌 Q"
+    },
+    {
+      "model_id": "iloom-haven-deluxe-medium-q",
+      "brand_id": "iloom",
+      "model_name": "헤이븐 디럭스 미디엄 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.iloom.com/product/detail.do?productCd=IMS15HV04A",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "og:image is brand logo per developer; no authorized image_url available"
+    },
+    {
+      "model_id": "iloom-haven-signature-medium-q",
+      "brand_id": "iloom",
+      "model_name": "헤이븐 시그니처 미디엄 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.iloom.com/product/detail.do?productCd=IMS15HV01A",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "og:image is brand logo per developer; no authorized image_url available"
+    },
+    {
+      "model_id": "iloom-toasty-qk",
+      "brand_id": "iloom",
+      "model_name": "토스티 호텔형 프레임",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.iloom.com/product/detail.do?productCd=IBS0016A",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "일룸 토스티 호텔 Q/K 프레임"
+    },
+    {
+      "model_id": "ksbed-absolute",
+      "brand_id": "ksbed",
+      "model_name": "앱솔루트",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000457",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "금성 앱솔루트 단독 상품"
+    },
+    {
+      "model_id": "ksbed-premium-hestia-h",
+      "brand_id": "ksbed",
+      "model_name": "프리미엄 헤스티스 H",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000345",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "금성 프리미엄 헤스티스 H 단독 상품"
+    },
+    {
+      "model_id": "ksbed-stable25",
+      "brand_id": "ksbed",
+      "model_name": "스테이블25",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000527",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "금성 스테이블25 단독 상품"
+    },
+    {
+      "model_id": "muji-frame-oak-q",
+      "brand_id": "muji",
+      "model_name": "떡갈나무 침대 프레임 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/99631",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 떡갈나무 Q"
+    },
+    {
+      "model_id": "muji-frame-rubberwood-q",
+      "brand_id": "muji",
+      "model_name": "고무나무 침대 프레임 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/99645",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 고무나무 Q"
+    },
+    {
+      "model_id": "muji-frame-walnut-q",
+      "brand_id": "muji",
+      "model_name": "호두나무 침대 프레임 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/99636",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 호두나무 Q"
+    },
+    {
+      "model_id": "muji-pocket-high-density-q",
+      "brand_id": "muji",
+      "model_name": "고밀도 포켓코일 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/99650",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 고밀도 포켓코일 Q"
+    },
+    {
+      "model_id": "muji-pocket-standard-q",
+      "brand_id": "muji",
+      "model_name": "스탠다드 포켓코일 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/99657",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 스탠다드 포켓코일 Q"
+    },
+    {
+      "model_id": "muji-pocket-ultra-density-q",
+      "brand_id": "muji",
+      "model_name": "초고밀도 포켓코일 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://mujikorea.co.kr/products/view/1004394",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "MUJI 초고밀도 포켓코일 Q"
+    },
+    {
+      "model_id": "n32-foam-soft",
+      "brand_id": "n32",
+      "model_name": "N32 폼 매트리스 소프트",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.n32.co.kr/product-detail?productNo=133714381",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 N32 폼 소프트 상세"
+    },
+    {
+      "model_id": "n32-spring-hard",
+      "brand_id": "n32",
+      "model_name": "N32 스프링 매트리스 하드",
+      "status": "existing_detail",
+      "official_detail_url": "https://www.n32.co.kr/product-detail?productNo=133714383",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "og:image is brand logo per developer; no authorized image_url available"
+    },
+    {
+      "model_id": "n32-spring-regular",
+      "brand_id": "n32",
+      "model_name": "N32 스프링 매트리스 레귤러",
+      "status": "needs_detail",
+      "official_detail_url": "https://www.n32.co.kr/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "quicksleep-q3",
+      "brand_id": "quicksleep",
+      "model_name": "퀵슬립 Q3",
+      "status": "needs_detail",
+      "official_detail_url": "https://m.quicksleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "quicksleep-q4",
+      "brand_id": "quicksleep",
+      "model_name": "퀵슬립 Q4",
+      "status": "needs_detail",
+      "official_detail_url": "https://m.quicksleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "quicksleep-q7",
+      "brand_id": "quicksleep",
+      "model_name": "퀵슬립 Q7",
+      "status": "needs_detail",
+      "official_detail_url": "https://m.quicksleep.us/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "sealy-edgar2-plush-q",
+      "brand_id": "sealy",
+      "model_name": "에드가 II 플러시 (Q)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://m.sealy.co.kr/product/edgar-ii-plush%EC%97%90%EB%93%9C%EA%B0%80-2-%ED%94%8C%EB%9F%AC%EC%89%AC-q/4418/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "씰리 에드가 II 플러시 Q"
+    },
+    {
+      "model_id": "sealy-exquisite-highland",
+      "brand_id": "sealy",
+      "model_name": "엑스퀴짓 하이랜드",
+      "status": "new_official_detail",
+      "official_detail_url": "https://m.sealy.co.kr/product/exquisite-highland-%EC%97%91%EC%8A%A4%ED%80%B4%EC%A7%93-%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C-%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/4466/category/1/display/9/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "씰리 엑스퀴짓 하이랜드 상세"
+    },
+    {
+      "model_id": "sealy-verus-q",
+      "brand_id": "sealy",
+      "model_name": "베루스 Verus (Q, 미디엄)",
+      "status": "new_official_detail",
+      "official_detail_url": "https://m.sealy.co.kr/product/verus%EB%B2%A0%EB%A3%A8%EC%8A%A4-q/4511/category/1/display/9/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "씰리 베루스 Q 상세"
+    },
+    {
+      "model_id": "simmons-citrus",
+      "brand_id": "simmons",
+      "model_name": "뷰티레스트 시트러스",
+      "status": "new_official_detail",
+      "official_detail_url": "https://simmons.co.kr/product-detail?productNo=127673167",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 뷰티레스트 시트러스 단독 상세"
+    },
+    {
+      "model_id": "simmons-henry",
+      "brand_id": "simmons",
+      "model_name": "뷰티레스트 헨리",
+      "status": "needs_detail",
+      "official_detail_url": "https://www.simmons.co.kr/",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Dedicated official one-model detail could not be verified"
+    },
+    {
+      "model_id": "simmons-jasmine",
+      "brand_id": "simmons",
+      "model_name": "뷰티레스트 자스민",
+      "status": "new_official_detail",
+      "official_detail_url": "https://simmons.co.kr/product-detail?productNo=127678787",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 뷰티레스트 자스민 단독 상세"
+    },
+    {
+      "model_id": "simmons-rutian-frame",
+      "brand_id": "simmons",
+      "model_name": "루티안 프레임",
+      "status": "new_official_detail",
+      "official_detail_url": "https://simmons.co.kr/product-detail?productNo=136452781",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 루티안 프레임 단독 상세"
+    },
+    {
+      "model_id": "simmons-tangerine",
+      "brand_id": "simmons",
+      "model_name": "뷰티레스트 탠저린",
+      "status": "new_official_detail",
+      "official_detail_url": "https://simmons.co.kr/product-detail?productNo=127677820",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "공식 뷰티레스트 탠저린 단독 상세"
+    },
+    {
+      "model_id": "tempur-form",
+      "brand_id": "tempur",
+      "model_name": "템퍼 폼 FORM Original Medium",
+      "status": "existing_detail",
+      "official_detail_url": "https://kr.tempur.com/mattresses/by-size/queen-KRFMORIGMED160x200.html",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "tempur-prima",
+      "brand_id": "tempur",
+      "model_name": "템퍼 프리마",
+      "status": "existing_detail",
+      "official_detail_url": "https://kr.tempur.com/mattresses/by-range/krprima-KRPRIMA.html",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "tempur-pro",
+      "brand_id": "tempur",
+      "model_name": "템퍼 프로",
+      "status": "existing_detail",
+      "official_detail_url": "https://kr.tempur.com/mattresses/by-range/krpro-KRPRO.html",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "Previously confirmed dedicated official model page"
+    },
+    {
+      "model_id": "zinus-cloud-luxs-hybrid",
+      "brand_id": "zinus",
+      "model_name": "클라우드 럭스S 하이브리드",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000366",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "지누스 클라우드 럭스S 하이브리드"
+    },
+    {
+      "model_id": "zinus-greentea-luxs-hybrid",
+      "brand_id": "zinus",
+      "model_name": "그린티 럭스S 하이브리드",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000364",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "지누스 그린티 럭스S 하이브리드"
+    },
+    {
+      "model_id": "zinus-ultima-luxs-hybrid",
+      "brand_id": "zinus",
+      "model_name": "얼티마 럭스S 하이브리드",
+      "status": "new_official_detail",
+      "official_detail_url": "https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000365",
+      "image_url": "",
+      "rights_status": "unknown",
+      "note": "지누스 얼티마 럭스S 하이브리드"
+    }
+  ]
+}

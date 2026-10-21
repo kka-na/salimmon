@@ -10,7 +10,7 @@ model_code: null
 status: researching
 image:
   image_url: null
-  image_source_url: https://m.quicksleep.us/
+  image_source_url: https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=26
   alt: 퀵슬립 퀵슬립 Q4 공식 제품 사진 확인 후 추가
   rights_status: unknown
 specs:
@@ -21,9 +21,9 @@ specs:
   other: {}
 prices: []
 pros:
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- Q4 롤팩 단독 모델을 공식 사이트에서 확인했으며 2026년 현재 판매 목록에 노출
 cons:
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- Q4 일체형 제품(프레임 포함 구조)과 별개 모델이므로 사진·가격을 혼용하면 안 됨
 warranty_summary: null
 warranty_source_url: null
 store_ids:
@@ -31,6 +31,7 @@ store_ids:
 review_ids: []
 source_urls:
 - https://m.quicksleep.us/
+- https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=26
 updated_at: '2026-10-21'
 ---
 # 퀵슬립 · 퀵슬립 Q4
@@ -51,10 +52,10 @@ updated_at: '2026-10-21'
 - 공식 시작가를 Q 가격으로 해석하거나, 개인 협상 가격을 정가로 제시하지 마십시오.
 
 ## 확인된 장점
-- 공식 또는 유통 정보를 바탕으로 비교 후보로 등록함
+- Q4 롤팩 단독 모델을 공식 사이트에서 확인했으며 2026년 현재 판매 목록에 노출
 
 ## 확인된 단점·주의사항
-- 전시품 경도 및 사이즈별 정확한 가격을 현장에서 재확인해야 함
+- Q4 일체형 제품(프레임 포함 구조)과 별개 모델이므로 사진·가격을 혼용하면 안 됨
 
 ## 실제 사용 후기 요약
 - 조건에 맞는 모델명 직접 연결 독립 후기가 확보되지 않았습니다. 판매자 상품평은 기본 집계에서 제외합니다.
@@ -69,3 +70,9 @@ updated_at: '2026-10-21'
 ## 검증 상태·미확인 항목
 - 상태: `researching`. **공식 모델/카탈로그 존재와 실물 재고는 별도입니다.**
 - 확인이 필요한 항목: 제품 이미지 이용 권한, 최신 옵션별 가격, 실제 전시 모델, 모델별 보증서 세부 약관.
+
+
+## 공식 단독 상세 링크 재검증 (v4)
+- https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=26
+- 기존 https://m.quicksleep.us/는 브랜드/목록 페이지로 이미지 미리보기 적합도가 낮아 교체.
+- 롤팩·일체형 구분 후 매칭.
