@@ -10,45 +10,61 @@
 - 모델 **아르코 ARCO 프레임** (`models/ace-arco-frame.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **하이브리드 테크 레드** (`models/ace-hybrid-red.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **로얄에이스 90H** (`models/ace-royal90h.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **로얄에이스 90S** (`models/ace-royal90s.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **베스트슬립 G5 소프트** (`models/bestsleep-g5-soft.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 실물 전시 확인 매장 없음
 - 모델 **베스트슬립 Z10B** (`models/bestsleep-z10b.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **베스트슬립 Z11** (`models/bestsleep-z11.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
   - 보증/A/S 요약 없음
   - 실물 전시 확인 매장 없음
 - 모델 **브랜드리스 모피어스22** (`models/brandless-morpheus22.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 실물 전시 확인 매장 없음
 - 모델 **카리브2 H (Q)** (`models/emons-caribe2-h-q.md`)
@@ -69,58 +85,81 @@
 - 모델 **데디카스 에어로리떼** (`models/epeda-aerolithe.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **아르데코 개츠비** (`models/epeda-gatsby.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **아르데코 사요** (`models/epeda-sayo.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **클로즈 침대** (`models/hanssem-close-frame.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **포시즌 5** (`models/hanssem-fourseason-5.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **포시즌 6** (`models/hanssem-fourseason-6.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **포시즌 7** (`models/hanssem-fourseason-7.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **호텔침대 모노** (`models/hanssem-mono-frame.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **호텔침대 포에트** (`models/hanssem-poet-frame.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **뤼니에르 디반+복스트란다 세트** (`models/ikea-lyngor-divan-150.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **말름 침대 프레임** (`models/ikea-malm-150.md`)
@@ -129,6 +168,8 @@
   - 실물 전시 확인 매장 없음
 - 모델 **복스트란다 포켓스프링** (`models/ikea-vagstranda-150.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **발레보그 포켓스프링** (`models/ikea-valevag-150.md`)
@@ -137,43 +178,61 @@
   - 실물 전시 확인 매장 없음
 - 모델 **베스테뢰위 포켓스프링** (`models/ikea-vesteroey-150.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **바젤 심플리화이트 침대 프레임** (`models/iloom-bazel-q.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **데일리 라이트 펌 (Q)** (`models/iloom-daily-light-firm-q.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **헤이븐 디럭스 미디엄 (Q)** (`models/iloom-haven-deluxe-medium-q.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **헤이븐 시그니처 미디엄 (Q)** (`models/iloom-haven-signature-medium-q.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **토스티 호텔형 프레임** (`models/iloom-toasty-qk.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **앱솔루트** (`models/ksbed-absolute.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **프리미엄 헤스티스 H** (`models/ksbed-premium-hestia-h.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **스테이블25** (`models/ksbed-stable25.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **떡갈나무 침대 프레임 (Q)** (`models/muji-frame-oak-q.md`)
@@ -218,6 +277,7 @@
   - 실물 전시 확인 매장 없음
 - 모델 **N32 스프링 매트리스 레귤러** (`models/n32-spring-regular.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
@@ -241,11 +301,15 @@
   - 실물 전시 확인 매장 없음
 - 모델 **에드가 II 플러시 (Q)** (`models/sealy-edgar2-plush-q.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **엑스퀴짓 하이랜드** (`models/sealy-exquisite-highland.md`)
   - 가격 기록 없음 (옵션·가격 종류·확인일·출처 URL 포함)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **베루스 Verus (Q, 미디엄)** (`models/sealy-verus-q.md`)
@@ -254,11 +318,14 @@
   - 실물 전시 확인 매장 없음
 - 모델 **뷰티레스트 시트러스** (`models/simmons-citrus.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **뷰티레스트 헨리** (`models/simmons-henry.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)
   - 보증/A/S 요약 없음
   - 실물 전시 확인 매장 없음
 - 모델 **뷰티레스트 자스민** (`models/simmons-jasmine.md`)
@@ -267,6 +334,8 @@
   - 실물 전시 확인 매장 없음
 - 모델 **루티안 프레임** (`models/simmons-rutian-frame.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
@@ -282,26 +351,36 @@
   - 실물 전시 확인 매장 없음
 - 모델 **템퍼 프리마** (`models/tempur-prima.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **템퍼 프로** (`models/tempur-pro.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **클라우드 럭스S 하이브리드** (`models/zinus-cloud-luxs-hybrid.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **그린티 럭스S 하이브리드** (`models/zinus-greentea-luxs-hybrid.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음
 - 모델 **얼티마 럭스S 하이브리드** (`models/zinus-ultima-luxs-hybrid.md`)
   - 대표 이미지 없음 (image_url + image_source_url + rights_status)
+  - 장점(pros) 없음
+  - 단점·주의(cons) 없음
   - 보증/A/S 요약 없음
   - 독립 사용 후기 없음
   - 실물 전시 확인 매장 없음

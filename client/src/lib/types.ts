@@ -34,6 +34,9 @@ export interface ImageView {
   alt: string;
   rights_status: "permitted" | "official_embed" | "unknown";
   placeholder_reason: "no_image" | "rights_unknown" | null;
+  /** Official-page og:image, hotlinked (not stored) — only when the server enables previews. */
+  preview_url?: string | null;
+  preview_page_url?: string | null;
 }
 
 export interface PriceView extends LinkInfo {

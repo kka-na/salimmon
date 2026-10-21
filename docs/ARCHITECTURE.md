@@ -29,7 +29,7 @@ research/*.md ──(읽기 전용)──▶ FastAPI (server/)  ──REST /api�
 
 ## 개인 기록 보호
 
-- SQLite에는 사용자 소유 데이터만 저장: `model_progress`, `progress_events`(도장 이력), `store_visits`, `personal_notes`, `personal_quotes`, `link_checks`.
+- SQLite에는 사용자 소유 데이터만 저장: `model_progress`, `progress_events`(도장 이력), `store_visits`, `personal_notes`, `personal_quotes`, `link_checks`, `image_previews`(공식 페이지 og:image URL 캐시).
 - 모든 행은 조사 entity의 **안정적인 문자열 id**로 연결. MD를 다시 읽거나 교체해도 개인 행은 건드리지 않음.
 - MD에서 entity가 사라져도 기록은 삭제하지 않고 `orphaned: true`로 표시(내 도장 화면에 "조사 자료에서 빠짐 · 기록 보존").
 - 모든 사용자 테이블에 `user_id` 컬럼. MVP는 `local` 단일 사용자(`api/deps.py::current_user_id`)이며, 인증을 붙일 때 이 의존성만 교체하면 됨.
@@ -52,6 +52,7 @@ research/*.md ──(읽기 전용)──▶ FastAPI (server/)  ──REST /api�
 | 가격 신선도 | `historical_official` → "과거 확인가", 확인일이 기준일보다 오래됨 → "재확인 필요" |
 | 옵션 | `size_or_option`별로 그룹화, 서로 다른 옵션을 하나의 가격으로 합치지 않음 |
 | 이미지 | `rights_status`가 `permitted`/`official_embed`일 때만 표시. 그 외에는 중립 플레이스홀더 + 공식 원본 페이지 링크 |
+| 공식 미리보기 | (선택, `OFFICIAL_IMAGE_PREVIEW`) 권리 확인 이미지가 없고 `image_source_url`이 이 모델만 쓰는 상세 페이지면, `--fetch-previews`가 찾아 둔 og:image를 "공식 사이트 이미지" 표시와 함께 핫링크(`referrerPolicy=no-referrer`). 로고·사이트 공통·여러 페이지 공통 이미지는 수집 단계에서 제외. 대체 순서: og:image → 페이지 고유 상품 `<img>` → (`--render`) 렌더링 후 og:image. 응답이 이미지인지(콘텐츠 타입 또는 파일 시그니처) 확인하고 리다이렉트 최종 주소를 저장. 이미지 파일은 저장하지 않음 |
 | 독립 후기 | 원문 URL·게시일·구매/사용 진술이 있고, 협찬·보상 고지·X등급·원문 미열람·D/E등급이 아닌 글. `duplicate_group`은 1건으로 집계 |
 | 후기 분류 | `experience`(독립) / `purchase_reference`(D) / `community`(E) / `excluded` |
 | 매장 전시 | 매장의 `model_ids_on_display`에 있고 `display_status: verified_on_display`일 때만 "전시 확인". 모델의 `store_ids`만으로는 "취급 매장 · 이 모델 전시 미확인" |

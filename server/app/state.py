@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker
 
 from .catalog import Ctx
 from .config import Settings
-from .db import LinkCheck, init_db, make_engine
+from .db import ImagePreview, LinkCheck, init_db, make_engine
 from .research.loader import ResearchData, load_research
 
 log = logging.getLogger("salimmon")
@@ -26,6 +26,7 @@ class AppState:
         self._lock = threading.Lock()
         self.data: ResearchData = load_research(settings.research_dir)
         self.links: dict[str, dict] = {}
+        self.previews: dict[str, str] = {}
         self.reload_links()
         self._log_report()
 
@@ -41,10 +42,18 @@ class AppState:
     def reload_links(self) -> None:
         with self.sessions() as s:
             rows = s.scalars(select(LinkCheck)).all()
+            previews = s.scalars(select(ImagePreview).where(ImagePreview.status == "ok")).all()
         self.links = {r.url: {"status": r.status, "checked_at": r.checked_at} for r in rows}
+        self.previews = {p.page_url: p.image_url for p in previews if p.image_url}
 
     def ctx(self) -> Ctx:
-        return Ctx(today=date.today(), stale_days=self.settings.stale_price_days, links=self.links)
+        return Ctx(
+            today=date.today(),
+            stale_days=self.settings.stale_price_days,
+            links=self.links,
+            previews=self.previews,
+            preview_enabled=self.settings.official_image_preview,
+        )
 
     def _log_report(self) -> None:
         rep = self.data.report()

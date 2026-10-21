@@ -208,3 +208,34 @@ status: researching
     assert bucket["dup1"] == bucket["dup2"] == "experience"
     # 2 sample independents + one deduplicated pair
     assert detail["review_stats"]["independent"] == 3
+
+
+def test_official_preview_only_for_model_specific_pages(make_client, research_dir: Path, tmp_path: Path):
+    from datetime import datetime, timezone
+
+    from app.db import ImagePreview, init_db, make_engine
+
+    def set_source(mid: str, url: str) -> None:
+        path = research_dir / "models" / f"{mid}.md"
+        path.write_text(path.read_text(encoding="utf-8").replace(
+            "specs:", f"image:\n  image_source_url: {url}\n  rights_status: unknown\nspecs:", 1), encoding="utf-8")
+
+    set_source("sample-malang-hybrid", "https://example.com/p/hybrid")
+    set_source("sample-pogeun-wood", "https://example.com/list")
+    set_source("sample-pogeun-storage", "https://example.com/list")
+    factory = init_db(make_engine(f"sqlite:///{tmp_path / 'test.db'}"))
+    now = datetime.now(timezone.utc)
+    with factory() as s:
+        for page in ("https://example.com/p/hybrid", "https://example.com/list"):
+            s.add(ImagePreview(page_url=page, image_url=page + ".jpg", status="ok", detail="", checked_at=now))
+        s.commit()
+
+    off = make_client(research_dir).get("/api/models/sample-malang-hybrid").json()["image"]
+    assert off["preview_url"] is None
+    on = make_client(research_dir, official_image_preview=True)
+    img = on.get("/api/models/sample-malang-hybrid").json()["image"]
+    assert img["display_url"] is None
+    assert img["preview_url"] == "https://example.com/p/hybrid.jpg"
+    assert img["preview_page_url"] == "https://example.com/p/hybrid"
+    # A page shared by several models would show the wrong product: no preview.
+    assert on.get("/api/models/sample-pogeun-wood").json()["image"]["preview_url"] is None

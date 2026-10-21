@@ -11,6 +11,7 @@ import re
 from dataclasses import dataclass, field
 from datetime import date
 from typing import Any
+from urllib.parse import urlparse
 
 from .research.loader import ResearchData
 from .research.schema import Claim, ImageInfo, Model, PriceRecord, Review, Source, Store
@@ -74,6 +75,8 @@ class Ctx:
     today: date
     stale_days: int
     links: dict[str, dict] = field(default_factory=dict)  # url -> {status, checked_at}
+    previews: dict[str, str] = field(default_factory=dict)  # official page url -> og:image url
+    preview_enabled: bool = False
 
 
 # ---------- primitives ----------
@@ -112,15 +115,44 @@ def image_view(img: ImageInfo | None, fallback_alt: str) -> dict:
     if img is None or not img.image_url:
         return {"display_url": None, "image_source_url": img.image_source_url if img else None,
                 "alt": (img.alt if img and img.alt else fallback_alt), "rights_status": img.rights_status if img else "unknown",
-                "placeholder_reason": "no_image"}
+                "placeholder_reason": "no_image", "preview_url": None, "preview_page_url": None}
     allowed = img.rights_status in ("permitted", "official_embed")
     return {
         "display_url": img.image_url if allowed else None,
+        "preview_url": None,
+        "preview_page_url": None,
         "image_source_url": img.image_source_url,
         "alt": img.alt or fallback_alt,
         "rights_status": img.rights_status,
         "placeholder_reason": None if allowed else "rights_unknown",
     }
+
+
+def preview_page(data: ResearchData, m: Model) -> str | None:
+    """The model's image_source_url, but only if it is a model-specific page.
+
+    Brand home pages and list/promo pages shared by several models would show the
+    wrong product, so they never get a preview.
+    """
+    url = m.image.image_source_url if m.image else None
+    if not url:
+        return None
+    parsed = urlparse(url)
+    if parsed.path in ("", "/") and not parsed.query:
+        return None
+    return url if data.image_source_counts[url] == 1 else None
+
+
+def model_image(ctx: Ctx, data: ResearchData, m: Model, alt: str) -> dict:
+    """image_view + optional official-page preview (OFFICIAL_IMAGE_PREVIEW=true) when no
+    rights-cleared image exists. The preview is hotlinked from the official page, never stored."""
+    view = image_view(m.image, alt)
+    if ctx.preview_enabled and not view["display_url"]:
+        page = preview_page(data, m)
+        if page and ctx.previews.get(page):
+            view["preview_url"] = ctx.previews[page]
+            view["preview_page_url"] = page
+    return view
 
 
 def price_view(ctx: Ctx, p: PriceRecord) -> dict:
@@ -380,7 +412,7 @@ def model_summary(ctx: Ctx, data: ResearchData, m: Model) -> dict:
         "status": m.status,
         "updated_at": m.updated_at,
         "last_verified_at": m.last_verified_at,
-        "image": image_view(m.image, f"{brand.name if brand else ''} {m.name}".strip()),
+        "image": model_image(ctx, data, m, f"{brand.name if brand else ''} {m.name}".strip()),
         "representative_price": representative_price(ctx, m),
         "top_pro": m.pros[0].text if m.pros else None,
         "top_con": m.cons[0].text if m.cons else None,
@@ -395,7 +427,7 @@ def model_detail(ctx: Ctx, data: ResearchData, m: Model) -> dict:
     out = model_summary(ctx, data, m)
     brand = data.brand(m.brand_id)
     cat = data.category(m.category_id)
-    gallery = [image_view(img, out["image"]["alt"]) for img in ([m.image] if m.image else []) + m.images]
+    gallery = [out["image"]] + [image_view(img, out["image"]["alt"]) for img in m.images]
     compat = []
     for c in m.compatibility:
         other = data.model(c.model_id)

@@ -7,7 +7,9 @@ with the file path, field and reason (the import validation report).
 from __future__ import annotations
 
 import re
+from collections import Counter
 from dataclasses import dataclass, field
+from functools import cached_property
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal
@@ -96,6 +98,15 @@ class ResearchData:
     @property
     def counts(self) -> dict[str, int]:
         return {t: len(self.table(t)) for t in DIRECTORY_FOR_TYPE}
+
+    @cached_property
+    def image_source_counts(self) -> Counter:
+        """How many models cite each image_source_url (shared pages are not model-specific)."""
+        return Counter(
+            e.entity.image.image_source_url  # type: ignore[attr-defined]
+            for e in self.models.values()
+            if e.entity.image and e.entity.image.image_source_url  # type: ignore[attr-defined]
+        )
 
     @property
     def has_sample_data(self) -> bool:

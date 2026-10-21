@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-salimmon ("우리 집 혼수 도장깨기") — a mobile-first 혼수 catalog + showroom map + compare + stamp-book app. Specs: `docs/개발에이전트_프롬프트.md` (dev brief), `docs/조사MD_작성규격.md` (Research Contract v1 + v2 review section) and `docs/후기_검색범위_판정규칙.md` (review grading rules). Other research-package docs (`docs/침대_종합_보고서.md`, `docs/추가조사_대기열.md`, `docs/검색커버리지_기록.md`, root `DATA_QUALITY.json`) belong to the research agent. Human docs: `README.md`, `docs/ARCHITECTURE.md`, `docs/DATA_SCHEMA.md`, `docs/API.md`.
+salimmon ("우리 집 혼수 도장깨기") — a mobile-first 혼수 catalog + showroom map + compare + stamp-book app. Specs: `docs/개발에이전트_프롬프트.md` (dev brief), `docs/조사MD_작성규격.md` (Research Contract v1 + v2 review section) and `docs/후기_검색범위_판정규칙.md` (review grading rules). Other research-package docs (`docs/침대_종합_보고서.md`, `docs/추가조사_대기열.md`, `docs/검색커버리지_기록.md`, `docs/침대_이미지_매핑_보고서_v3.md`, `docs/research-package/` incl. `images/model_image_mapping.*`, root `DATA_QUALITY.json`) belong to the research agent. Human docs: `README.md`, `docs/ARCHITECTURE.md`, `docs/DATA_SCHEMA.md`, `docs/API.md`.
 
 ## Role boundary (most important rule)
 
@@ -23,6 +23,7 @@ make test-server           # pytest (server/tests)
 make test-client           # tsc + eslint + vitest
 make test-e2e              # Playwright; starts its own API :8100 + web :3100 on samples — stop any running `next dev` first
 make validate              # import report for research/ (exit 1 on errors)
+make previews              # product image of model-specific official pages (og:image → in-page <img> → headless render) → image_previews (URL only), shown when OFFICIAL_IMAGE_PREVIEW=true
 cd server && env -u PYTHONPATH .venv/bin/python -m pytest tests/test_api.py -k compare   # single test
 cd client && npx playwright test -g "stamps"                                             # single e2e
 ```

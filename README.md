@@ -84,10 +84,16 @@ NEXT_PUBLIC_KAKAO_MAP_APP_KEY=발급키 docker compose up --build    # http://lo
 
 이미지: 사용 권리가 확인된 경우에만 `image.rights_status: permitted`(또는 `official_embed`)로 표시됩니다. 로컬 파일은 `research/assets/products/x.jpg` + `image_url: /assets/products/x.jpg`.
 
+공식 사이트 미리보기(선택): 권리 확인 이미지가 없을 때, `image_source_url`이 **그 모델 전용** 공식 상품 페이지면 그 페이지의 대표 이미지(og:image)를 "공식 사이트 이미지 · 원본 보기" 표시와 함께 **핫링크**로 보여줍니다. 파일은 내려받거나 저장하지 않고 URL만 DB(`image_previews`)에 기록합니다. 브랜드 홈·여러 모델 공유 페이지·로고·사이트 공통 이미지는 제외. og:image가 없거나 범용이면 페이지 안의 상품 이미지(그 페이지에만 있는 `/product`·`/goods` 경로 이미지)를, JS로 그리는 쇼핑몰은 `--render`로 헤드리스 Chromium(`client/node_modules`의 Playwright) 렌더링 후 og:image를 씁니다. 저장 전 실제로 이미지를 반환하는지 확인합니다.
+```bash
+make previews        # = import_research.py --fetch-previews --render --reload-url http://localhost:8000
+```
+서버 환경변수 `OFFICIAL_IMAGE_PREVIEW=true`일 때만 표시(`make server`는 켜져 있음, 기본값 false).
+
 ## 테스트
 
 ```bash
-make test-server     # pytest 26건: 검증 오류 리포트, 가격/후기/전시 판정, 새 카테고리 자동 반영, 재시작 후 개인 기록 유지, CLI
+make test-server     # pytest 29건: 검증 오류 리포트, 가격/후기/전시 판정, 새 카테고리 자동 반영, 재시작 후 개인 기록 유지, CLI
 make test-client     # tsc + eslint + vitest(포맷/링크 변환)
 make test-e2e        # Playwright(360px 모바일): 샘플 데이터로 API(:8100)+웹(:3100)을 직접 띄워 7개 사용자 흐름 검증
                      #   (실행 중인 `next dev`가 있으면 먼저 종료 — 한 디렉터리에 dev 서버 하나)

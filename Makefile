@@ -2,7 +2,7 @@
 PY := env -u PYTHONPATH server/.venv/bin/python
 NPM := cd client && npm
 
-.PHONY: setup server server-demo client test test-server test-client test-e2e validate requests
+.PHONY: setup server server-demo client test test-server test-client test-e2e validate requests previews
 
 setup:
 	python3 -m venv server/.venv
@@ -10,7 +10,7 @@ setup:
 	$(NPM) ci
 
 server:            ## API on :8000 with research/ (auto-reload on MD changes)
-	cd server && env -u PYTHONPATH RESEARCH_WATCH=true .venv/bin/uvicorn app.main:app --reload --reload-dir app --port 8000
+	cd server && env -u PYTHONPATH RESEARCH_WATCH=true OFFICIAL_IMAGE_PREVIEW=true .venv/bin/uvicorn app.main:app --reload --reload-dir app --port 8000
 
 server-demo:       ## API on :8000 with the test-only sample dataset and a separate DB
 	cd server && env -u PYTHONPATH RESEARCH_DIR=samples/research DATABASE_URL=sqlite:///server/data/demo.db RESEARCH_WATCH=true .venv/bin/uvicorn app.main:app --reload --reload-dir app --port 8000
@@ -34,3 +34,6 @@ validate:          ## Validate research/ and print the import report
 
 requests:          ## Regenerate research_requests.md from data gaps
 	$(PY) server/scripts/import_research.py --write-requests
+
+previews:          ## og:image / in-page product image of model-specific official pages (URL only; JS shops via headless Chromium), hot-reload :8000
+	$(PY) server/scripts/import_research.py --fetch-previews --render --reload-url http://localhost:8000

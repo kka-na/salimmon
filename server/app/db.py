@@ -129,6 +129,20 @@ class LinkCheck(Base):
     checked_at: Mapped[datetime] = mapped_column(UTCDateTime, default=utcnow)
 
 
+class ImagePreview(Base):
+    """og:image found on a model's own official page (`import_research.py --fetch-previews`).
+
+    Only the remote URL is stored — the image itself is never downloaded or re-hosted.
+    """
+
+    __tablename__ = "image_previews"
+    page_url: Mapped[str] = mapped_column(String(2000), primary_key=True)
+    image_url: Mapped[str | None] = mapped_column(String(2000), nullable=True)
+    status: Mapped[str] = mapped_column(String(10))  # ok | none | error
+    detail: Mapped[str] = mapped_column(Text, default="")
+    checked_at: Mapped[datetime] = mapped_column(UTCDateTime, default=utcnow)
+
+
 def make_engine(url: str) -> Engine:
     if url.startswith("sqlite:///"):
         from pathlib import Path

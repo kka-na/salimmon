@@ -8,7 +8,8 @@ import { cx } from "./ui";
 
 /**
  * Shows the product photo only when the API allowed it (rights confirmed).
- * Otherwise a neutral hand-drawn placeholder — never a fake product picture.
+ * Otherwise the official page's own og:image if the server sent one (hotlinked; the page links to the source),
+ * else a neutral hand-drawn placeholder — never a fake product picture.
  */
 export function ProductImage({
   image,
@@ -22,12 +23,29 @@ export function ProductImage({
   showReason?: boolean;
 }) {
   const [failed, setFailed] = useState(false);
+  const [previewFailed, setPreviewFailed] = useState(false);
   const url = image.display_url && !failed ? image.display_url : null;
+  const preview = !url && image.preview_url && !previewFailed ? image.preview_url : null;
 
   if (url) {
     return (
       <div className={cx("relative overflow-hidden bg-white", className)}>
         <img src={url} alt={image.alt} loading="lazy" onError={() => setFailed(true)} className="h-full w-full object-contain" />
+      </div>
+    );
+  }
+
+  if (preview) {
+    return (
+      <div className={cx("relative overflow-hidden bg-white", className)}>
+        <img
+          src={preview}
+          alt={image.alt}
+          loading="lazy"
+          referrerPolicy="no-referrer"
+          onError={() => setPreviewFailed(true)}
+          className="h-full w-full object-contain"
+        />
       </div>
     );
   }

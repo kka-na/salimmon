@@ -43,6 +43,7 @@
 | `representative_price` | 카드용 대표가 (`docs/ARCHITECTURE.md` 규칙) + `option_count` |
 | `price.freshness` | `current` / `stale`(재확인 필요) / `historical`(과거 확인가) |
 | `image.display_url` | 권리 확인된 경우만 값, 아니면 `null` + `placeholder_reason` |
+| `image.preview_url`, `preview_page_url` | `OFFICIAL_IMAGE_PREVIEW=true`이고 `display_url`이 없을 때, 모델 전용 공식 페이지의 og:image(핫링크). 공유 페이지(여러 모델이 같은 `image_source_url`)·도메인 루트는 제외 |
 | `review.is_independent`, `exclusion_reasons`, `bucket` | 독립 후기 판정과 분류 |
 | `review_stats` | 독립 후기 수(중복 그룹 1건), 감성 분포, 구매 증빙 수 |
 | `store.relation` | `display_verified` / `display_unconfirmed` / `store_only` |

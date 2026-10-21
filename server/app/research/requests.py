@@ -7,7 +7,7 @@ from __future__ import annotations
 
 from datetime import date
 
-from ..catalog import review_independence
+from ..catalog import preview_page, review_independence
 from .loader import ResearchData
 from .schema import Model, Review, Store
 
@@ -20,6 +20,8 @@ def _model_gaps(data: ResearchData, m: Model) -> list[str]:
         gaps.append("대표 이미지 없음 (image_url + image_source_url + rights_status)")
     elif m.image.rights_status == "unknown":
         gaps.append("이미지 rights_status가 unknown이라 화면에 표시하지 않음")
+    if m.image and m.image.image_source_url and not preview_page(data, m):
+        gaps.append("image_source_url이 이 모델 전용 공식 상품 페이지가 아님 (브랜드 홈 또는 여러 모델 공유 페이지)")
     if not m.specs or all(v in (None, "", {}, []) for v in m.specs.values()):
         gaps.append("사양(specs) 없음")
     if not m.pros:

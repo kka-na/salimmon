@@ -51,6 +51,7 @@ class Settings:
     watch_research: bool = False
     stale_price_days: int = 180
     enable_admin: bool = True
+    official_image_preview: bool = False
 
 
 def load_settings() -> Settings:
@@ -64,4 +65,5 @@ def load_settings() -> Settings:
         watch_research=_bool(os.environ.get("RESEARCH_WATCH"), False),
         stale_price_days=int(os.environ.get("STALE_PRICE_DAYS", "180")),
         enable_admin=_bool(os.environ.get("ENABLE_ADMIN"), True),
+        official_image_preview=_bool(os.environ.get("OFFICIAL_IMAGE_PREVIEW"), False),
     )
