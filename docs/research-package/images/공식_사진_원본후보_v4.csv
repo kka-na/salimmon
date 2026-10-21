@@ -1,0 +1,60 @@
+﻿model_id,brand_id,model_name,official_detail_url,official_inline_image_url,media_verification,rights_status,matched_on,status,notes
+ace-arco-frame,ace,아르코 ARCO 프레임,https://www.acebed.com/product/bed/frame/view.do?detailsKey=224,,not_checked,unknown,2026-10-21,as_v3,
+ace-hybrid-red,ace,하이브리드 테크 레드,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=9,,not_checked,unknown,2026-10-21,as_v3,
+ace-royal90h,ace,로얄에이스 90H,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=29,,not_checked,unknown,2026-10-21,as_v3,
+ace-royal90s,ace,로얄에이스 90S,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=28,,not_checked,unknown,2026-10-21,as_v3,
+bestsleep-g5-soft,bestsleep,베스트슬립 G5 소프트,https://bestsleep.us/,,not_checked,unknown,2026-10-21,as_v3,
+bestsleep-z10b,bestsleep,베스트슬립 Z10B,https://bestsleep.us/,https://www.bestsleep.cafe/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Fz10b.e5a0ecdd.jpg&w=3840,official_marketing_visual_verified_not_dedicated_page,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+bestsleep-z11,bestsleep,베스트슬립 Z11,https://bestsleep.us/,https://www.bestsleep.cafe/_next/image?q=75&url=%2F_next%2Fstatic%2Fmedia%2Fz11.9e0fe282.jpg&w=3840,official_marketing_visual_verified_not_dedicated_page,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+brandless-morpheus22,brandless,브랜드리스 모피어스22,https://bestsleep.us/,,not_checked,unknown,2026-10-21,as_v3,
+emons-caribe2-h-q,emons,카리브2 H (Q),https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11578,https://images.emons.co.kr/brand/upload_files/product/sub/20260522102942_6a0fb18633dac_4879.jpg,official_gallery_image_unconfirmed_response,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+emons-caribe2-m-q,emons,카리브2 M (Q),https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573,https://images.emons.co.kr/brand/upload_files/product/sub/20260526102847_6a14f74f81dea_7180.jpg,official_gallery_image_octet_stream,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+emons-live-m-q,emons,리브M (Q),https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11583,https://images.emons.co.kr/brand/upload_files/product/sub/20260522102412_6a0fb03c25825_1259.jpg,official_gallery_image_octet_stream,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+epeda-aerolithe,epeda,데디카스 에어로리떼,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,not_checked,unknown,2026-10-21,as_v3,
+epeda-gatsby,epeda,아르데코 개츠비,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,not_checked,unknown,2026-10-21,as_v3,
+epeda-sayo,epeda,아르데코 사요,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-close-frame,hanssem,클로즈 침대,https://store.hanssem.com/goods/1041147,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-fourseason-5,hanssem,포시즌 5,https://store.hanssem.com/goods/1115352,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-fourseason-6,hanssem,포시즌 6,https://store.hanssem.com/goods/1115350,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-fourseason-7,hanssem,포시즌 7,https://store.hanssem.com/goods/1115348,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-mono-frame,hanssem,호텔침대 모노,https://store.hanssem.com/goods/1115939,,not_checked,unknown,2026-10-21,as_v3,
+hanssem-poet-frame,hanssem,호텔침대 포에트,https://store.hanssem.com/goods/932380,,not_checked,unknown,2026-10-21,as_v3,
+ikea-lyngor-divan-150,ikea,뤼니에르 디반+복스트란다 세트,https://www.ikea.com/kr/ko/p/lyngoer-divan-bed-vagstranda-firm-light-blue-dark-grey-s49615238/,,not_checked,unknown,2026-10-21,as_v3,
+ikea-malm-150,ikea,말름 침대 프레임,https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/,,not_checked,unknown,2026-10-21,as_v3,
+ikea-vagstranda-150,ikea,복스트란다 포켓스프링,https://www.ikea.com/kr/ko/p/vagstranda-pocket-sprung-mattress-super-firm-light-blue-90569993/,,not_checked,unknown,2026-10-21,as_v3,
+ikea-valevag-150,ikea,발레보그 포켓스프링,https://www.ikea.com/kr/en/p/valevag-pocket-sprung-mattress-firm-light-blue-30450671/,,not_checked,unknown,2026-10-21,as_v3,
+ikea-vesteroey-150,ikea,베스테뢰위 포켓스프링,https://www.ikea.com/kr/ko/p/vesteroey-pocket-sprung-mattress-extra-firm-light-blue-50470060/,,not_checked,unknown,2026-10-21,as_v3,
+iloom-bazel-q,iloom,바젤 심플리화이트 침대 프레임,https://www.iloom.com/product/detail.do?productCd=HBA501501,,not_checked,unknown,2026-10-21,as_v3,
+iloom-daily-light-firm-q,iloom,데일리 라이트 펌 (Q),https://www.iloom.com/product/detail.do?productCd=IMS15AB01A,,not_checked,unknown,2026-10-21,as_v3,
+iloom-haven-deluxe-medium-q,iloom,헤이븐 디럭스 미디엄 (Q),https://www.iloom.com/product/detail.do?productCd=IMS15HV04A,,not_checked,unknown,2026-10-21,as_v3,
+iloom-haven-signature-medium-q,iloom,헤이븐 시그니처 미디엄 (Q),https://www.iloom.com/product/detail.do?productCd=IMS15HV01A,,not_checked,unknown,2026-10-21,as_v3,
+iloom-toasty-qk,iloom,토스티 호텔형 프레임,https://www.iloom.com/product/detail.do?productCd=IBS0016A,,not_checked,unknown,2026-10-21,as_v3,
+ksbed-absolute,ksbed,앱솔루트,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000457,,not_checked,unknown,2026-10-21,as_v3,
+ksbed-premium-hestia-h,ksbed,프리미엄 헤스티스 H,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000345,,not_checked,unknown,2026-10-21,as_v3,
+ksbed-stable25,ksbed,스테이블25,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000527,,not_checked,unknown,2026-10-21,as_v3,
+muji-frame-oak-q,muji,떡갈나무 침대 프레임 (Q),https://mujikorea.co.kr/products/view/99631,https://product.mujikorea.co.kr/images/products/4550583222062/4550583222062_1260.jpg?f=webp&w=960,official_product_gallery_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+muji-frame-rubberwood-q,muji,고무나무 침대 프레임 (Q),https://mujikorea.co.kr/products/view/99645,https://product.mujikorea.co.kr/images/products/4550583435349/4550583435349_1260.jpg?f=webp&w=960,official_product_gallery_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+muji-frame-walnut-q,muji,호두나무 침대 프레임 (Q),https://mujikorea.co.kr/products/view/99636,https://product.mujikorea.co.kr/images/products/1/636/5GzavSljCoiuJvoUfNm9BvCL9WmbLYlPGJnuUhsD.jpg?f=webp&w=960,official_product_gallery_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+muji-pocket-high-density-q,muji,고밀도 포켓코일 (Q),https://mujikorea.co.kr/products/view/99650,https://product.mujikorea.co.kr/images/products/4550583435509/4550583435509_1260.jpg?f=webp&w=960,official_gallery_link_returned_timeout,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+muji-pocket-standard-q,muji,스탠다드 포켓코일 (Q),https://mujikorea.co.kr/products/view/99657,https://product.mujikorea.co.kr/images/products/4550583435639/4550583435639_1260.jpg?f=webp&w=960,official_gallery_link_returned_timeout,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+muji-pocket-ultra-density-q,muji,초고밀도 포켓코일 (Q),https://mujikorea.co.kr/products/view/1004394,https://product.mujikorea.co.kr/images/products/4550584434433/4550584434433_1260.jpg?f=webp&w=960,official_product_gallery_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+n32-foam-soft,n32,N32 폼 매트리스 소프트,https://www.n32.co.kr/product-detail?productNo=133714381,https://shopby-images.cdn-nhncommerce.com/Mall-No-z8bB/20251119/153422.638743957/%ED%8F%BC%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4%20_%20%EC%86%8C%ED%94%84%ED%8A%B8.jpg,official_inline_photo_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+n32-spring-hard,n32,N32 스프링 매트리스 하드,https://www.n32.co.kr/product-detail?productNo=133714383,https://shopby-images.cdn-nhncommerce.com/Mall-No-z8bB/20251113/114403.959835996/%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4_Hard.jpg,official_inline_photo_verified,unknown,2026-10-21,image_candidate_found,다운로드 권리 미확인: 실제 파일 없음
+n32-spring-regular,n32,N32 스프링 매트리스 레귤러,https://www.n32.co.kr/,,not_checked,unknown,2026-10-21,as_v3,
+quicksleep-q3,quicksleep,퀵슬립 Q3,https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=19,,not_checked,unknown,2026-10-21,page_fixed,
+quicksleep-q4,quicksleep,퀵슬립 Q4,https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=26,,not_checked,unknown,2026-10-21,page_fixed,
+quicksleep-q7,quicksleep,퀵슬립 Q7,https://m.quicksleep.us/product/detail.html?cate_no=24&display_group=1&product_no=25,,not_checked,unknown,2026-10-21,page_fixed,
+sealy-edgar2-plush-q,sealy,에드가 II 플러시 (Q),https://m.sealy.co.kr/product/edgar-ii-plush%EC%97%90%EB%93%9C%EA%B0%80-2-%ED%94%8C%EB%9F%AC%EC%89%AC-q/4418/,,not_checked,unknown,2026-10-21,as_v3,
+sealy-exquisite-highland,sealy,엑스퀴짓 하이랜드,https://m.sealy.co.kr/product/exquisite-highland-%EC%97%91%EC%8A%A4%ED%80%B4%EC%A7%93-%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C-%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/4466/category/1/display/9/,,not_checked,unknown,2026-10-21,as_v3,
+sealy-verus-q,sealy,"베루스 Verus (Q, 미디엄)",https://m.sealy.co.kr/product/verus%EB%B2%A0%EB%A3%A8%EC%8A%A4-q/4511/category/1/display/9/,,not_checked,unknown,2026-10-21,as_v3,
+simmons-citrus,simmons,뷰티레스트 시트러스,https://simmons.co.kr/product-detail?productNo=127673167,,not_checked,unknown,2026-10-21,as_v3,
+simmons-henry,simmons,뷰티레스트 헨리,https://www.simmons.co.kr/,,not_checked,unknown,2026-10-21,as_v3,
+simmons-jasmine,simmons,뷰티레스트 자스민,https://simmons.co.kr/product-detail?productNo=127678787,,not_checked,unknown,2026-10-21,as_v3,
+simmons-rutian-frame,simmons,루티안 프레임,https://simmons.co.kr/product-detail?productNo=136452781,,not_checked,unknown,2026-10-21,as_v3,
+simmons-tangerine,simmons,뷰티레스트 탠저린,https://simmons.co.kr/product-detail?productNo=127677820,,not_checked,unknown,2026-10-21,as_v3,
+tempur-form,tempur,템퍼 폼 FORM Original Medium,https://kr.tempur.com/mattresses/by-size/queen-KRFMORIGMED160x200.html,,not_checked,unknown,2026-10-21,as_v3,
+tempur-prima,tempur,템퍼 프리마,https://kr.tempur.com/mattresses/by-range/krprima-KRPRIMA.html,,not_checked,unknown,2026-10-21,as_v3,
+tempur-pro,tempur,템퍼 프로,https://kr.tempur.com/mattresses/by-range/krpro-KRPRO.html,,not_checked,unknown,2026-10-21,as_v3,
+zinus-cloud-luxs-hybrid,zinus,클라우드 럭스S 하이브리드,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000366,,not_checked,unknown,2026-10-21,as_v3,
+zinus-greentea-luxs-hybrid,zinus,그린티 럭스S 하이브리드,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000364,,not_checked,unknown,2026-10-21,as_v3,
+zinus-ultima-luxs-hybrid,zinus,얼티마 럭스S 하이브리드,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000365,,not_checked,unknown,2026-10-21,as_v3,

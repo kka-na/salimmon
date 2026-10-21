@@ -1,0 +1,60 @@
+﻿model_id,brand_id,model_name,status,official_detail_url,image_url,rights_status,note
+ace-arco-frame,ace,아르코 ARCO 프레임,new_official_detail,https://www.acebed.com/product/bed/frame/view.do?detailsKey=224,,unknown,공식 아르코 프레임 상세
+ace-hybrid-red,ace,하이브리드 테크 레드,existing_detail,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=9,,unknown,Previously confirmed dedicated official model page
+ace-royal90h,ace,로얄에이스 90H,existing_detail,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=29,,unknown,Previously confirmed dedicated official model page
+ace-royal90s,ace,로얄에이스 90S,existing_detail,https://www.acebed.com/product/bed/mattress/view.do?detailsKey=28,,unknown,Previously confirmed dedicated official model page
+bestsleep-g5-soft,bestsleep,베스트슬립 G5 소프트,needs_detail,https://bestsleep.us/,,unknown,Dedicated official one-model detail could not be verified
+bestsleep-z10b,bestsleep,베스트슬립 Z10B,needs_detail,https://bestsleep.us/,,unknown,Dedicated official one-model detail could not be verified
+bestsleep-z11,bestsleep,베스트슬립 Z11,needs_detail,https://bestsleep.us/,,unknown,Dedicated official one-model detail could not be verified
+brandless-morpheus22,brandless,브랜드리스 모피어스22,needs_detail,https://bestsleep.us/,,unknown,Dedicated official one-model detail could not be verified
+emons-caribe2-h-q,emons,카리브2 H (Q),new_official_detail,https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11578,,unknown,에몬스 카리브2 H Q 상세
+emons-caribe2-m-q,emons,카리브2 M (Q),new_official_detail,https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11573,,unknown,에몬스 카리브2 M Q 상세
+emons-live-m-q,emons,리브M (Q),new_official_detail,https://www.emons.co.kr/product/product_view.php?grp=PRI2&prodId=11583,,unknown,Official detailed item id 11583 shows 리브 or 리브M; verify brand naming before assuming same spec
+epeda-aerolithe,epeda,데디카스 에어로리떼,needs_detail,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,unknown,Dedicated official one-model detail could not be verified
+epeda-gatsby,epeda,아르데코 개츠비,needs_detail,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,unknown,Dedicated official one-model detail could not be verified
+epeda-sayo,epeda,아르데코 사요,needs_detail,https://epeda.kr/category/%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/24/,,unknown,Dedicated official one-model detail could not be verified
+hanssem-close-frame,hanssem,클로즈 침대,new_official_detail,https://store.hanssem.com/goods/1041147,,unknown,클로즈 Q/K 프레임 단독 상품
+hanssem-fourseason-5,hanssem,포시즌 5,new_official_detail,https://store.hanssem.com/goods/1115352,,unknown,포시즌5 Q/K/KK 단독 상품
+hanssem-fourseason-6,hanssem,포시즌 6,new_official_detail,https://store.hanssem.com/goods/1115350,,unknown,포시즌6 Q/K/KK 단독 상품; 2025년 8월 리뉴얼
+hanssem-fourseason-7,hanssem,포시즌 7,new_official_detail,https://store.hanssem.com/goods/1115348,,unknown,포시즌7 Q/K/KK 단독 상품
+hanssem-mono-frame,hanssem,호텔침대 모노,new_official_detail,https://store.hanssem.com/goods/1115939,,unknown,호텔 모노 Q/K 매트리스 제외 프레임 상품
+hanssem-poet-frame,hanssem,호텔침대 포에트,new_official_detail,https://store.hanssem.com/goods/932380,,unknown,호텔 포에트 Q/K 매트리스 제외 프레임 상품
+ikea-lyngor-divan-150,ikea,뤼니에르 디반+복스트란다 세트,existing_detail,https://www.ikea.com/kr/ko/p/lyngoer-divan-bed-vagstranda-firm-light-blue-dark-grey-s49615238/,,unknown,Previously confirmed dedicated official model page
+ikea-malm-150,ikea,말름 침대 프레임,new_official_detail,https://www.ikea.com/kr/ko/p/malm-bed-frame-high-white-s89005264/,,unknown,이케아 말름 150x200cm 화이트 높은 프레임 옵션
+ikea-vagstranda-150,ikea,복스트란다 포켓스프링,existing_detail,https://www.ikea.com/kr/ko/p/vagstranda-pocket-sprung-mattress-super-firm-light-blue-90569993/,,unknown,Previously confirmed dedicated official model page
+ikea-valevag-150,ikea,발레보그 포켓스프링,new_official_detail,https://www.ikea.com/kr/en/p/valevag-pocket-sprung-mattress-firm-light-blue-30450671/,,unknown,이케아 발레보그 150x200cm 단단함(영문 한국 공식몰)
+ikea-vesteroey-150,ikea,베스테뢰위 포켓스프링,existing_detail,https://www.ikea.com/kr/ko/p/vesteroey-pocket-sprung-mattress-extra-firm-light-blue-50470060/,,unknown,Previously confirmed dedicated official model page
+iloom-bazel-q,iloom,바젤 심플리화이트 침대 프레임,new_official_detail,https://www.iloom.com/product/detail.do?productCd=HBA501501,,unknown,일룸 바젤 심플리화이트 Q 프레임
+iloom-daily-light-firm-q,iloom,데일리 라이트 펌 (Q),new_official_detail,https://www.iloom.com/product/detail.do?productCd=IMS15AB01A,,unknown,일룸 데일리 라이트 펌 Q
+iloom-haven-deluxe-medium-q,iloom,헤이븐 디럭스 미디엄 (Q),new_official_detail,https://www.iloom.com/product/detail.do?productCd=IMS15HV04A,,unknown,og:image is brand logo per developer; no authorized image_url available
+iloom-haven-signature-medium-q,iloom,헤이븐 시그니처 미디엄 (Q),new_official_detail,https://www.iloom.com/product/detail.do?productCd=IMS15HV01A,,unknown,og:image is brand logo per developer; no authorized image_url available
+iloom-toasty-qk,iloom,토스티 호텔형 프레임,new_official_detail,https://www.iloom.com/product/detail.do?productCd=IBS0016A,,unknown,일룸 토스티 호텔 Q/K 프레임
+ksbed-absolute,ksbed,앱솔루트,new_official_detail,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000457,,unknown,금성 앱솔루트 단독 상품
+ksbed-premium-hestia-h,ksbed,프리미엄 헤스티스 H,new_official_detail,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000345,,unknown,금성 프리미엄 헤스티스 H 단독 상품
+ksbed-stable25,ksbed,스테이블25,new_official_detail,https://www.ksbed.co.kr/goods/goods_view.php?goodsNo=1000000527,,unknown,금성 스테이블25 단독 상품
+muji-frame-oak-q,muji,떡갈나무 침대 프레임 (Q),new_official_detail,https://mujikorea.co.kr/products/view/99631,,unknown,MUJI 떡갈나무 Q
+muji-frame-rubberwood-q,muji,고무나무 침대 프레임 (Q),new_official_detail,https://mujikorea.co.kr/products/view/99645,,unknown,MUJI 고무나무 Q
+muji-frame-walnut-q,muji,호두나무 침대 프레임 (Q),new_official_detail,https://mujikorea.co.kr/products/view/99636,,unknown,MUJI 호두나무 Q
+muji-pocket-high-density-q,muji,고밀도 포켓코일 (Q),new_official_detail,https://mujikorea.co.kr/products/view/99650,,unknown,MUJI 고밀도 포켓코일 Q
+muji-pocket-standard-q,muji,스탠다드 포켓코일 (Q),new_official_detail,https://mujikorea.co.kr/products/view/99657,,unknown,MUJI 스탠다드 포켓코일 Q
+muji-pocket-ultra-density-q,muji,초고밀도 포켓코일 (Q),new_official_detail,https://mujikorea.co.kr/products/view/1004394,,unknown,MUJI 초고밀도 포켓코일 Q
+n32-foam-soft,n32,N32 폼 매트리스 소프트,new_official_detail,https://www.n32.co.kr/product-detail?productNo=133714381,,unknown,공식 N32 폼 소프트 상세
+n32-spring-hard,n32,N32 스프링 매트리스 하드,existing_detail,https://www.n32.co.kr/product-detail?productNo=133714383,,unknown,og:image is brand logo per developer; no authorized image_url available
+n32-spring-regular,n32,N32 스프링 매트리스 레귤러,needs_detail,https://www.n32.co.kr/,,unknown,Dedicated official one-model detail could not be verified
+quicksleep-q3,quicksleep,퀵슬립 Q3,needs_detail,https://m.quicksleep.us/,,unknown,Dedicated official one-model detail could not be verified
+quicksleep-q4,quicksleep,퀵슬립 Q4,needs_detail,https://m.quicksleep.us/,,unknown,Dedicated official one-model detail could not be verified
+quicksleep-q7,quicksleep,퀵슬립 Q7,needs_detail,https://m.quicksleep.us/,,unknown,Dedicated official one-model detail could not be verified
+sealy-edgar2-plush-q,sealy,에드가 II 플러시 (Q),new_official_detail,https://m.sealy.co.kr/product/edgar-ii-plush%EC%97%90%EB%93%9C%EA%B0%80-2-%ED%94%8C%EB%9F%AC%EC%89%AC-q/4418/,,unknown,씰리 에드가 II 플러시 Q
+sealy-exquisite-highland,sealy,엑스퀴짓 하이랜드,new_official_detail,https://m.sealy.co.kr/product/exquisite-highland-%EC%97%91%EC%8A%A4%ED%80%B4%EC%A7%93-%ED%95%98%EC%9D%B4%EB%9E%9C%EB%93%9C-%EB%A7%A4%ED%8A%B8%EB%A6%AC%EC%8A%A4/4466/category/1/display/9/,,unknown,씰리 엑스퀴짓 하이랜드 상세
+sealy-verus-q,sealy,"베루스 Verus (Q, 미디엄)",new_official_detail,https://m.sealy.co.kr/product/verus%EB%B2%A0%EB%A3%A8%EC%8A%A4-q/4511/category/1/display/9/,,unknown,씰리 베루스 Q 상세
+simmons-citrus,simmons,뷰티레스트 시트러스,new_official_detail,https://simmons.co.kr/product-detail?productNo=127673167,,unknown,공식 뷰티레스트 시트러스 단독 상세
+simmons-henry,simmons,뷰티레스트 헨리,needs_detail,https://www.simmons.co.kr/,,unknown,Dedicated official one-model detail could not be verified
+simmons-jasmine,simmons,뷰티레스트 자스민,new_official_detail,https://simmons.co.kr/product-detail?productNo=127678787,,unknown,공식 뷰티레스트 자스민 단독 상세
+simmons-rutian-frame,simmons,루티안 프레임,new_official_detail,https://simmons.co.kr/product-detail?productNo=136452781,,unknown,공식 루티안 프레임 단독 상세
+simmons-tangerine,simmons,뷰티레스트 탠저린,new_official_detail,https://simmons.co.kr/product-detail?productNo=127677820,,unknown,공식 뷰티레스트 탠저린 단독 상세
+tempur-form,tempur,템퍼 폼 FORM Original Medium,existing_detail,https://kr.tempur.com/mattresses/by-size/queen-KRFMORIGMED160x200.html,,unknown,Previously confirmed dedicated official model page
+tempur-prima,tempur,템퍼 프리마,existing_detail,https://kr.tempur.com/mattresses/by-range/krprima-KRPRIMA.html,,unknown,Previously confirmed dedicated official model page
+tempur-pro,tempur,템퍼 프로,existing_detail,https://kr.tempur.com/mattresses/by-range/krpro-KRPRO.html,,unknown,Previously confirmed dedicated official model page
+zinus-cloud-luxs-hybrid,zinus,클라우드 럭스S 하이브리드,new_official_detail,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000366,,unknown,지누스 클라우드 럭스S 하이브리드
+zinus-greentea-luxs-hybrid,zinus,그린티 럭스S 하이브리드,new_official_detail,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000364,,unknown,지누스 그린티 럭스S 하이브리드
+zinus-ultima-luxs-hybrid,zinus,얼티마 럭스S 하이브리드,new_official_detail,https://www.zinus.co.kr/goods/goods_view.php?goodsNo=1000000365,,unknown,지누스 얼티마 럭스S 하이브리드

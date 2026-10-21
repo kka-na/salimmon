@@ -34,3 +34,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# python / server
+__pycache__/
+*.pyc
+.pytest_cache/
+server/.venv/
+server/data/
+server/.env
+
+# client test artifacts
+client/test-results/
+client/playwright-report/

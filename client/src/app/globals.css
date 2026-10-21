@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+/* Stampbook palette: warm paper, pastel stickers, one red stamp ink. */
+:root {
+  --paper: #fff8ef;
+  --paper-deep: #fbefe0;
+  --card: #fffdf9;
+  --ink: #3a3242;
+  --ink-soft: #6f6578;
+  --ink-faint: #9d93a6;
+  --line: #efe2d2;
+  --line-strong: #e2cfb9;
+  --peach: #ffd9c4;
+  --pink: #ffd1df;
+  --butter: #fff0b8;
+  --mint: #cdeedf;
+  --sky: #d3e7ff;
+  --lilac: #e6ddff;
+  --stamp: #e0574f;
+  --stamp-soft: #fde3e0;
+  --ok: #2f8f63;
+  --ok-soft: #dcf3e7;
+  --warn: #b7791f;
+  --warn-soft: #fdf0d5;
+  --muted-soft: #f1ece6;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-peach: var(--peach);
+  --color-pink: var(--pink);
+  --color-butter: var(--butter);
+  --color-mint: var(--mint);
+  --color-sky: var(--sky);
+  --color-lilac: var(--lilac);
+  --color-stamp: var(--stamp);
+  --color-stamp-soft: var(--stamp-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --color-muted-soft: var(--muted-soft);
+  --font-sans: var(--font-body), system-ui, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --font-display: var(--font-cute), var(--font-body), sans-serif;
+  --shadow-sticker: 0 3px 0 0 var(--line-strong);
+  --shadow-sticker-sm: 0 2px 0 0 var(--line-strong);
+}
+
+html {
+  background: var(--paper);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  /* faint dotted notebook paper */
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 18px 18px;
+  min-height: 100dvh;
+}
+
+:focus-visible {
+  outline: 3px solid #8b7cf6;
+  outline-offset: 2px;
+  border-radius: 10px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+/* Markdown report typography */
+.report {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.report h1 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  margin: 0.4rem 0 0.8rem;
+}
+.report h2 {
+  font-weight: 700;
+  font-size: 1.08rem;
+  margin: 1.6rem 0 0.6rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px dashed var(--line);
+}
+.report h3 {
+  font-weight: 700;
+  margin: 1.2rem 0 0.4rem;
+}
+.report p,
+.report ul,
+.report ol {
+  margin: 0.5rem 0;
+}
+.report ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.report ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+.report a {
+  color: #5b4bd6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.report blockquote {
+  margin: 0.8rem 0;
+  padding: 0.6rem 0.9rem;
+  background: var(--butter);
+  border-radius: 14px;
+  color: var(--ink-soft);
+}
+.report code {
+  background: var(--muted-soft);
+  padding: 0.05rem 0.3rem;
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+.report .table-wrap {
+  overflow-x: auto;
+  margin: 0.8rem 0;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--card);
+}
+.report table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.report th,
+.report td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+  min-width: 5.5rem;
+}
+.report th {
+  background: var(--paper-deep);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.report tr:last-child td {
+  border-bottom: none;
+}
+.report input[type="checkbox"] {
+  margin-right: 0.35rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

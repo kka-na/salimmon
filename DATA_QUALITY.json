@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "counts": {
+    "model": 59,
+    "brand": 24,
+    "store": 13,
+    "category": 1,
+    "review": 11
+  },
+  "model_types": {
+    "bed_frame": 11,
+    "mattress": 47,
+    "etc": 1
+  },
+  "dated_reviews": 9,
+  "undated_reviews_excluded_from_date_filter": 2,
+  "model_showroom_exhibition_confirmed": 0,
+  "image_usage_rights_confirmed": 0,
+  "notes": [
+    "동일 브랜드 매장과 해당 모델 실물 전시를 구분함",
+    "업체 협찬 없음은 독립적으로 입증되지 않음",
+    "공식 시작가는 Q 단품 가격 아님",
+    "인간용 보고서 2026-10-21 갱신",
+    "Threads/Instagram 원문/게시일 검증이 제한되어 신규 공식 후기 집계에서는 제외"
+  ],
+  "source_search_policy_version": 2,
+  "added_reviews_by_platform": {
+    "blind": 2,
+    "theqoo": 1
+  }
+}
